@@ -96,10 +96,14 @@ Se utiliza un script para validar el formulario de contacto en tiempo real:
 
 ### Configuración
 1. Asegúrate de tener **Node.js** instalado.
-2. Ejecuta el siguiente comando para compilar los estilos con Tailwind:
+2. Instala las dependencias necesarias ejecutando:
+   ```bash
+   npm install
+   ```
+3. Ejecuta el siguiente comando para compilar los estilos con Tailwind:
    ```bash
    npx tailwindcss -i ./styles/styles.css -o ./styles/output.css --watch
-   ```
+   ```   ```
 
 ### Estructura del Proyecto
 - **Root Folder:** Contiene `index.html` y el directorio principal.
