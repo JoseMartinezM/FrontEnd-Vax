@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Técnica - Avanzada</title>
+    <style>
+        /* CSS intencionalmente desordenado y con problemas de UX */
+        body {
+            background-color: yellow;
+            color: black;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            margin: 0 auto;
+            padding: 20px;
+            border: 5px dotted red;
+            max-width: 900px;
+        }
+
+        header {
+            background-color: green;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        nav {
+            background-color: pink;
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav a {
+            color: blue;
+            font-size: 18px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 10px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .section {
+            margin: 5px;
+            padding: 15px;
+            background-color: lightgray;
+            border: 1px solid #ccc;
+        }
+
+        .section img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: darkgray;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px;
+            background-color: blue;
+            color: white;
+            text-align: center;
+            border: 1px solid black;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bienvenidos a la Prueba Técnica</h1>
+            <p>Por favor, mejora la experiencia de usuario de esta página.</p>
+        </header>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Servicios</a>
+            <a href="#">Proyectos</a>
+            <a href="#">Contacto</a>
+        </nav>
+        <main>
+            <div class="section">
+                <h2>Sección 1</h2>
+                <p>Contenido con información importante. Por favor, ajusta el diseño para que sea más claro y fácil de leer.</p>
+                <img src="https://via.placeholder.com/150" alt="Ejemplo de imagen">
+                <button class="button">Leer más</button>
+            </div>
+            <div class="section">
+                <h2>Sección 2</h2>
+                <p>Texto adicional sobre otro tema interesante. Este texto necesita más espacio y mejor organización visual.</p>
+                <img src="https://via.placeholder.com/150" alt="Otra imagen">
+                <button class="button">Ver detalles</button>
+            </div>
+            <div class="section">
+                <h2>Sección 3</h2>
+                <p>Esta es una sección con un formulario desordenado:</p>
+                <form>
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name">
+                    <br>
+                    <label for="email">Correo:</label>
+                    <input type="email" id="email" name="email">
+                    <br>
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message"></textarea>
+                    <br>
+                    <button type="submit" class="button">Enviar</button>
+                </form>
+            </div>
+            <div class="section">
+                <h2>Sección 4</h2>
+                <p>Otro contenido adicional para estructurar.</p>
+                <ul>
+                    <li>Punto 1</li>
+                    <li>Punto 2</li>
+                    <li>Punto 3</li>
+                </ul>
+                <button class="button">Explorar</button>
+            </div>
+        </main>
+        <footer>
+            <p>Pie de página. Mejora el diseño para hacerlo más atractivo.</p>
+        </footer>
+    </div>
+</body>
+</html>

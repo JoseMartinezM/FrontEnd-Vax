@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../styles/output.css">
+</head>
+<body class="bg-gray-900 text-gray-200 font-sans">
+    <div class="container mx-auto px-4 py-6">
+        <!-- Header -->
+        <header class="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 text-white py-8 text-center rounded-lg shadow-md">
+            <h1 class="text-4xl font-extrabold tracking-tight">Contáctanos</h1>
+            <div class="w-16 h-1 bg-blue-600 mx-auto my-4"></div>
+            <p class="text-lg mt-2 font-light">¿Tienes preguntas? Envíanos un mensaje.</p>
+        </header>
+
+        <!-- Navbar -->
+        <nav class="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 mt-6 py-4 px-6 rounded-lg shadow-md">
+            <div class="container mx-auto flex justify-around items-center">
+                <a href="../index.html" class="text-blue-400 font-medium hover:text-blue-400 hover:underline decoration-blue-600 decoration-2 underline-offset-4 transition-all">Inicio</a>
+                <a href="./services.html" class="text-blue-400 font-medium hover:text-blue-400 hover:underline decoration-blue-600 decoration-2 underline-offset-4 transition-all">Servicios</a>
+                <a href="./projects.html" class="text-blue-400 font-medium hover:text-blue-400 hover:underline decoration-blue-600 decoration-2 underline-offset-4 transition-all">Proyectos</a>
+                <a href="./contact.html" class="text-blue-400 font-medium hover:text-blue-400 hover:underline decoration-blue-600 decoration-2 underline-offset-4 transition-all">Contacto</a>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="mt-6">
+            <section class="bg-gray-800 shadow-lg rounded-lg p-6 opacity-0 animate-fade-in">
+                <h2 class="text-xl font-semibold mb-2 text-white">Formulario de Contacto</h2>
+                <p class="mb-4 text-gray-400">Completa el formulario a continuación para ponerte en contacto con nosotros:</p>
+                <form class="space-y-6">
+                    <!-- Campo Nombre -->
+                    <div class="relative border-b-2 border-blue-600">
+                        <input 
+                            type="text" 
+                            name="name" 
+                            id="name" 
+                            required 
+                            class="peer w-full h-10 bg-transparent text-white placeholder-transparent focus:outline-none focus:ring-0 focus:border-blue-700"
+                        />
+                        <label 
+                            for="name" 
+                            class="absolute left-0 top-4 text-white text-sm transition-all duration-150 peer-placeholder-shown:top-4 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-focus:top-[-10px] peer-focus:text-xs peer-focus:text-blue-400 peer-valid:top-[-10px] peer-valid:text-xs peer-valid:text-blue-400"
+                        >
+                            Nombre
+                        </label>
+                    </div>
+            
+                    <!-- Campo Correo Electrónico -->
+                    <div class="relative border-b-2 border-blue-600">
+                        <input 
+                            type="text" 
+                            name="email" 
+                            id="email" 
+                            required 
+                            class="peer w-full h-10 bg-transparent text-white placeholder-transparent focus:outline-none focus:ring-0 focus:border-blue-700"
+                        />
+                        <label 
+                            for="email" 
+                            class="absolute left-0 top-4 text-white text-sm transition-all duration-150 peer-placeholder-shown:top-4 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-focus:top-[-10px] peer-focus:text-xs peer-focus:text-blue-400 peer-valid:top-[-10px] peer-valid:text-xs peer-valid:text-blue-400"
+                        >
+                            Correo Electrónico
+                        </label>
+                    </div>
+            
+                    <!-- Campo Mensaje -->
+                    <div class="relative border-b-2 border-blue-600">
+                        <textarea 
+                            name="message" 
+                            id="message" 
+                            rows="4" 
+                            required 
+                            class="peer w-full bg-transparent text-white placeholder-transparent focus:outline-none focus:ring-0 focus:border-blue-700"
+                        ></textarea>
+                        <label 
+                            for="message" 
+                            class="absolute left-0 top-4 text-white text-sm transition-all duration-150 peer-placeholder-shown:top-4 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-focus:top-[-20px] peer-focus:text-xs peer-focus:text-blue-400 peer-valid:top-[-20px] peer-valid:text-xs peer-valid:text-blue-400"
+                        >
+                            Mensaje
+                        </label>
+                    </div>
+            
+                    <!-- Botón Enviar -->
+                    <button type="submit" class="relative group flex items-center justify-center w-[8.5em] h-[2.9em] bg-transparent text-white border border-blue-600 rounded-lg transition-all duration-600 ease-in-out hover:bg-blue-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 absolute left-2 transition-transform duration-600 ease-in-out group-hover:translate-x-1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+                        </svg>
+                        <span class="ml-6">Enviar</span>
+                    </button>
+                </form>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 py-6 text-center rounded-lg shadow-md mt-6">
+            <p class="text-gray-400">2024. Jose Manuel Martinez. Prueba Tecnica</p>
+            <p class="text-gray-400 text-sm mt-2">Contacto: <a href="mailto:josemtzmor2013@hotmail.com" class="text-blue-600 hover:text-blue-400 transition-colors">josemtzmor2013@hotmail.com</a></p>
+            <div class="mt-4">
+                <a href="https://gitlab.com/tu-repo" target="_blank" class="inline-flex items-center text-blue-600 font-medium hover:text-blue-400 transition-colors space-x-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 3l1.48 4.51h4.77L13.4 11.9l1.48 4.51-3.63-2.63L7.63 16.4 9.1 11.9 5.5 7.51h4.77L11.25 3z" />
+                    </svg>
+                    <span>Ver Repositorio en GitLab</span>
+                </a>
+            </div>
+        </footer>
+    </div>
+    <!-- Scripts -->
+    <script src="../modules/form-validation.js"></script>
+
+</body>
+</html>
